@@ -150,31 +150,6 @@ To add a new game:
 
 See [ADDING_GAMES.md](./ADDING_GAMES.md) for the full guide.
 
-## Repository Files
-
-This client project includes:
-
-- [app.py](./app.py)
-- [core/](./core/)
-- [games/](./games/)
-- [tests/](./tests/)
-- [README.md](./README.md)
-- [ADDING_GAMES.md](./ADDING_GAMES.md)
-- [requirements.txt](./requirements.txt)
-- [.gitignore](./.gitignore)
-
-Keep these out of version control:
-
-- `venv/`
-- `__pycache__/`
-- local settings files
-- temporary build output
-
-For itch.io, the best early-test package is usually:
-
-- a zip of the project without `venv/` and `__pycache__/`
-- or later, a packaged build or APK when you are ready
-
 ## Notes
 
 - Room chat is not automatically moderated.
