@@ -35,9 +35,9 @@ This repository uses the [MIT License](https://github.com/ernies-Organization/ga
 - [.gitignore](./.gitignore)
 - [LICENSE](https://github.com/ernies-Organization/game-hub/blob/main/LICENSE)
 
-## What To Upload To GitHub
+## What This Repository Contains
 
-Upload the whole repository root so GitHub contains both:
+This repository includes:
 
 - [client/](./client/)
 - [server/](./server/)
@@ -45,7 +45,7 @@ Upload the whole repository root so GitHub contains both:
 - [.gitignore](./.gitignore)
 - [LICENSE](https://github.com/ernies-Organization/game-hub/blob/main/LICENSE)
 
-That way:
+This structure keeps:
 
 - the active app is preserved
 - the older or separate server implementation is preserved

@@ -150,9 +150,9 @@ To add a new game:
 
 See [ADDING_GAMES.md](./ADDING_GAMES.md) for the full guide.
 
-## What To Upload
+## Repository Files
 
-Upload these to GitHub:
+This client project includes:
 
 - [app.py](./app.py)
 - [core/](./core/)
@@ -163,14 +163,14 @@ Upload these to GitHub:
 - [requirements.txt](./requirements.txt)
 - [.gitignore](./.gitignore)
 
-Do not upload:
+Keep these out of version control:
 
 - `venv/`
 - `__pycache__/`
 - local settings files
 - temporary build output
 
-For itch.io, the best early-test upload is usually:
+For itch.io, the best early-test package is usually:
 
 - a zip of the project without `venv/` and `__pycache__/`
 - or later, a packaged build or APK when you are ready
