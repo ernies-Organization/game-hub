@@ -15,6 +15,27 @@ The main project most people should run is:
 
 That client app already includes its own host server, so a separate server process is not required for normal use.
 
+## Quick Start
+
+Open a terminal in the repository root, then run:
+
+```powershell
+cd .\client
+py -m venv venv
+.\venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+py app.py
+```
+
+For Android preview with Flet:
+
+```powershell
+cd .\client
+.\venv\Scripts\flet.exe run --android --port 8560 .\app.py
+```
+
+If you want more setup details, see [client/README.md](./client/README.md).
+
 ## License
 
 This repository uses the [MIT License](https://github.com/ernies-Organization/game-hub/blob/main/LICENSE).
