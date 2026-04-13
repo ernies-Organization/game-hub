@@ -1,23 +1,20 @@
-# Game Hub Workspace
+# Game Hub
 
-This repository contains the Game Hub multiplayer project.
+Game Hub is a modular multiplayer project built in Python with Flet.
 
-It currently has two main parts:
+The main app lives in [client/](./client/) and includes:
 
-- [client/](./client/) - the active Flet app with in-app hosting, offline play, online play, spectators, and modular game support
-- [server/](./server/) - a separate standalone server codebase kept in the repository for reference and future use
+- offline play
+- online play over direct IP
+- in-app hosting with no separate server required
+- spectator support
+- modular game support
 
-## Recommended Main Entry
-
-The main project most people should run is:
-
-- [client/app.py](./client/app.py)
-
-That client app already includes its own host server, so a separate server process is not required for normal use.
+Most users should start with [client/app.py](./client/app.py).
 
 ## Quick Start
 
-Open a terminal in the repository root, then run:
+From the repository root, run:
 
 ```powershell
 cd .\client
@@ -36,27 +33,16 @@ cd .\client
 
 If you want more setup details, see [client/README.md](./client/README.md).
 
+## Repository
+
+- [client/](./client/) - the main app
+- [client/README.md](./client/README.md) - client setup and usage
+- [client/app.py](./client/app.py) - main entry point
+- [client/core/](./client/core/) - shared app and networking code
+- [client/games/](./client/games/) - game modules
+- [client/tests/](./client/tests/) - automated tests
+- [server/](./server/) - separate standalone server code kept for reference and future work
+
 ## License
 
 This repository uses the [MIT License](https://github.com/ernies-Organization/game-hub/blob/main/LICENSE).
-
-## Repository Layout
-
-- [client/](./client/)
-- [client/README.md](./client/README.md)
-- [client/app.py](./client/app.py)
-- [client/core/](./client/core/)
-- [client/games/](./client/games/)
-- [client/tests/](./client/tests/)
-- [client/ADDING_GAMES.md](./client/ADDING_GAMES.md)
-- [server/](./server/)
-- [server/server.py](./server/server.py)
-- [server/core/](./server/core/)
-- [server/games/](./server/games/)
-- [.gitignore](./.gitignore)
-- [LICENSE](https://github.com/ernies-Organization/game-hub/blob/main/LICENSE)
-
-## Notes
-
-- [client/](./client/) is the main app you should show to users and testers.
-- [server/](./server/) is useful to keep on GitHub for development history, experiments, or future dedicated-server work.
