@@ -12,6 +12,14 @@ The main app lives in [client/](./client/) and includes:
 
 Most users should start with [client/app.py](./client/app.py).
 
+## License
+
+This repository uses the [MIT License](LICENSE).
+
+
+# Disclaimer
+The content provided herein is intended strictly for educational purposes. Any misuse or abuse of this information that contradicts this purpose, including but not limited to the unauthorized distribution, reproduction, or alteration of content, or the use of information for illicit activities, is strictly prohibited and may constitute a violation of applicable laws and regulations. This could lead to serious consequences including legal action. Educational resources are to be used responsibly, ethically, and with integrity. I reserve the right to restrict access to these resources for anyone found violating these terms. I also reserve the right to change any important information without notice.
+
 ## Quick Start
 
 From the repository root, run:
@@ -43,6 +51,3 @@ If you want more setup details, see [client/README.md](./client/README.md).
 - [client/tests/](./client/tests/) - automated tests
 - [server/](./server/) - separate standalone server code kept for reference and future work
 
-## License
-
-This repository uses the [MIT License](https://github.com/ernies-Organization/game-hub/blob/main/LICENSE).
